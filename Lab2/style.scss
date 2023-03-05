@@ -1,0 +1,61 @@
+// Variables
+$navbar-padding-right: 5rem;
+$navbar-list-item-padding-right: 2rem;
+$main-margin-left: 10rem;
+$main-margin-top: 10rem;
+$main-p-padding-bottom: 25rem;
+$cards-margin-top: -3.5rem;
+$cards-h5-font-size: 1.5rem;
+$cards-h5-font-weight: 400;
+
+// Style for hover-zoom class
+.hover-zoom {
+  $transition-duration: 0.5s;
+  $scale-factor: 1.05;
+
+  transition: transform $transition-duration ease;
+
+  &:hover {
+    transform: scale($scale-factor);
+    cursor: pointer;
+  }
+}
+#navbarNav {
+  padding-right: $navbar-padding-right;
+
+  ul li {
+    padding-right: $navbar-list-item-padding-right;
+  }
+}
+
+#main {
+  $background-color: black;
+  background-color: $background-color;
+
+  div {
+    background-color: $background-color;
+  }
+
+  h1 {
+    $font-size: 6.5rem;
+    $font-weight: 900;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    margin-top: $main-margin-top !important;
+    margin-left: $main-margin-left !important;
+  }
+
+  p {
+    padding-bottom: $main-p-padding-bottom;
+    margin-left: $main-margin-left !important;
+  }
+}
+
+#cards {
+  margin-top: $cards-margin-top;
+
+  h5 {
+    font-size: $cards-h5-font-size;
+    font-weight: $cards-h5-font-weight;
+  }
+}

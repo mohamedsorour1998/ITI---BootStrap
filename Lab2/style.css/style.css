@@ -1,0 +1,29 @@
+.hover-zoom {
+  transition: transform 0.5s ease; }
+  .hover-zoom:hover {
+    transform: scale(1.05);
+    cursor: pointer; }
+
+#navbarNav {
+  padding-right: 5rem; }
+  #navbarNav ul li {
+    padding-right: 2rem; }
+
+#main {
+  background-color: black; }
+  #main div {
+    background-color: black; }
+  #main h1 {
+    font-size: 6.5rem;
+    font-weight: 900;
+    margin-top: 10rem !important;
+    margin-left: 10rem !important; }
+  #main p {
+    padding-bottom: 25rem;
+    margin-left: 10rem !important; }
+
+#cards {
+  margin-top: -3.5rem; }
+  #cards h5 {
+    font-size: 1.5rem;
+    font-weight: 400; }
